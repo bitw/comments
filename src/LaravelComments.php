@@ -2,8 +2,6 @@
 
 namespace Bitw\Comments;
 
-
-
 class LaravelComments
 {
     public function modifyResponse(Request $request, Response $response)

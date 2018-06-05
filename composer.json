@@ -18,12 +18,5 @@
       "Bitw\\Comments\\": "src/"
     }
   },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "Bitw\\Comments\\ServiceProvider"
-      ]
-    }
-  },
   "minimum-stability": "dev"
 }
