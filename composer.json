@@ -13,18 +13,19 @@
   },
   "autoload": {
     "classmap": [
-
     ],
     "psr-4": {
       "Comments\\": "src/"
     }
   },
-  "laravel": {
-    "providers": [
-      "Bitw\\Comments\\ServiceProvider"
-    ],
-    "aliases": {
-      "Comments": "Bitw\\Comments\\Facade"
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Bitw\\Comments\\ServiceProvider"
+      ],
+      "aliases": {
+        "Comments": "Bitw\\Comments\\Facade"
+      }
     }
   },
   "minimum-stability": "dev"
