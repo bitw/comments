@@ -27,5 +27,5 @@
       "Comments": "Bitw\\Comments\\Facade"
     }
   },
-  "minimum-stability": "*"
+  "minimum-stability": "dev"
 }
