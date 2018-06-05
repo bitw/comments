@@ -1,0 +1,31 @@
+{
+  "name": "bitw/comments",
+  "description": "",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "bitw",
+      "email": "endval@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.1"
+  },
+  "autoload": {
+    "classmap": [
+      "src/controllers"
+    ],
+    "psr-0": {
+      "Bitw\\Comments": "src/"
+    }
+  },
+  "laravel": {
+    "providers": [
+      "Bitw\\Comments\\ServiceProvider"
+    ],
+    "aliases": {
+      "Comments": "Bitw\\Comments\\Facade"
+    }
+  },
+  "minimum-stability": "dev"
+}
