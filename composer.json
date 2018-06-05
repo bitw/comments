@@ -15,8 +15,8 @@
     "classmap": [
 
     ],
-    "psr-0": {
-      "Bitw\\Comments": "src/"
+    "psr-4": {
+      "Comments\\": "src/"
     }
   },
   "laravel": {
@@ -27,5 +27,5 @@
       "Comments": "Bitw\\Comments\\Facade"
     }
   },
-  "minimum-stability": "dev"
+  "minimum-stability": "*"
 }

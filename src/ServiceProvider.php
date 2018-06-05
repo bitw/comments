@@ -11,6 +11,11 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
 
     public function register()
     {
+        $this->app->singleton(LaravelComments::class, function () {
+            $comments = new LaravelComments($this->app);
 
+            return $comments;
+        }
+        );
     }
 }
