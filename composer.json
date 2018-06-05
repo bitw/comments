@@ -22,10 +22,7 @@
     "laravel": {
       "providers": [
         "Bitw\\Comments\\ServiceProvider"
-      ],
-      "aliases": {
-        "Comments": "Bitw\\Comments\\Facade"
-      }
+      ]
     }
   },
   "minimum-stability": "dev"
