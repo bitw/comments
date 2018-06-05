@@ -1,5 +1,5 @@
 {
-  "name": "bitw/comments",
+  "name": "bitw/laravel-comments",
   "description": "",
   "license": "MIT",
   "authors": [
@@ -9,11 +9,11 @@
     }
   ],
   "require": {
-    "php": ">=7.0.1"
+    "php": ">=7.1.3"
   },
   "autoload": {
     "classmap": [
-      "src/controllers"
+
     ],
     "psr-0": {
       "Bitw\\Comments": "src/"
