@@ -1,7 +1,5 @@
 # Comments
 
-#### Alpha version of module.
-
 This module allows you to leave comments on various pages.
 Permissions for writing comments are configured in the configuration.
 There is support for permission for authorized users and guests.
