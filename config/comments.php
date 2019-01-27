@@ -14,6 +14,6 @@ return [
     ],
 
     'frontend' => [
-        'use' => 'jquery' // jquery || vue
+        'use' => 'jquery' // jquery || vue (In subsequent versions of development)
     ]
 ];
